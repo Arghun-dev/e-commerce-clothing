@@ -37,6 +37,6 @@ const Header = ({ currentUser, hidden }) => (
 const mapStateToProps = ({user: {currentUser}, card: {hidden}}) => ({
 	currentUser,
 	hidden
-});
+})
 
 export default connect(mapStateToProps)(Header);
