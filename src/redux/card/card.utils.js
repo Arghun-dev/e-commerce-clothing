@@ -1,6 +1,6 @@
 export const addItemToCard = (cardItems, cardItemToAdd) => {
 	const existingCardItem = cardItems.find(
-		cardItem => cardItem.id === cardItemToAdd
+		cardItem => cardItem.id === cardItemToAdd.id
 	);
 
 	if(existingCardItem) { 
