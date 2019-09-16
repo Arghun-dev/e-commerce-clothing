@@ -3,6 +3,8 @@ import CustomButton from '../custom-button/custom-button.component';
 import './card-dropdown.styles.scss';
 import CardItem from '../card-item/card-item.component';
 import { connect } from 'react-redux';
+import {selectCardItems} from '../../redux/card/card.selectors';
+
 
 const CardDropDown = ({cardItems}) => (
 	<div className='card-dropdown'>
